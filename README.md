@@ -15,4 +15,6 @@ Descompacte os arquivos dentro de um servidor apache e importe o banco de dados.
 
 O banco de dados vem configurado para se utilizar o MySQL de forma local na porta padrão 3306. Caso o banco de dados a ser utilizado para esse sistema estiver em outro local ou ser outro, basta mudar as configurações no arquivo Config.php dentro da pasta app, ele e totalmente compatível aos drivers disponíveis pela extensão PDO.
 
+O sistema foi desenvolvido com o xampp e sua URL padrão esta configurada para acessar [http://localhost/controle-fornecedores], caso seja aplicado em um servidor ou outra pasta e sub-pasta, deve-se configurar a constante URL dentro de Config.php
+
 Todos os componentes e dependências estão disponíveis dentro da pasta vendor.

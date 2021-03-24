@@ -1,5 +1,7 @@
 <?php
 
+define('URL', 'localhost/controle-fornecedores');
+
 define('DATA_LAYER_CONFIG', [
 	'driver' => 'mysql',
 	'host' => 'localhost',

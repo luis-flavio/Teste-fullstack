@@ -2,7 +2,7 @@
 
 use CoffeeCode\Router\Router;
 
-$route = new Router('localhost/controle-fornecedores', ':');
+$route = new Router(URL, ':');
 
 $route->namespace('App\Controllers');
 
