@@ -9,11 +9,11 @@
   ],
   "autoload": {
     "psr-4": {
-      "App\\": "App/"
+      "App\\": "app/"
     },
     "files": [
-      "App/Config.php",
-      "App/Function.php"
+      "app/Config.php",
+      "app/Function.php"
     ]
   },
   "require": {
