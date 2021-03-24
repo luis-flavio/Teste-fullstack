@@ -1,0 +1,23 @@
+{
+  "name": "root/controle-fornecedor",
+  "description": "Teste Desenvolvedor FullStack - listagem de fornecedores",
+  "authors": [
+    {
+      "name": "Luis Flavio",
+      "email": "luis.pereirasiu@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    },
+    "files": [
+      "App/Config.php",
+      "App/Function.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*",
+    "coffeecode/datalayer": "1.1.*"
+  }
+}
